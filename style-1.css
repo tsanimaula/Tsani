@@ -153,13 +153,6 @@ footer {
   width: 100%;
 }
 
-#channel h2 {
-  border-bottom: 3px solid #e6286a;
-  padding-bottom: 8px;
-  display: block;
-  width: 100%;
-}
-
 #kontak h2 {
   border-bottom: 3px solid #e6286a;
   padding-bottom: 8px;
@@ -173,7 +166,7 @@ section, #alamat{
   outline: none !important;
 }
 
-#Video h2 {
+#channel h2 {
   border-bottom: 3px solid #e6286a;
   padding-bottom: 8px;
 }
