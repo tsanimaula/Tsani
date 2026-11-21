@@ -1,0 +1,183 @@
+/* 1. Pengaturan umum */
+* { box-sizing: border-box; }
+body {
+ margin: 0;
+ font-family: "Poppins", Arial, sans-serif;
+ color: #861943;
+ line-height: 1.6;
+ background-color: #e76a7f;
+}
+/* 2. Header dan menu */
+header {
+    background-image:
+        linear-gradient(rgba(75, 0, 0, 0.55), rgba(75, 0, 0, 0.65)),
+        url("image/donat.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#tentang h2 {
+  border-bottom: 3px solid #e6286a;
+  padding-bottom: 8px;
+  display: block;
+  width: 100%;
+}
+   
+header {
+ background-color: #e6286a;
+ color: #FFFFFF;
+ text-align: center;
+ padding: 32px 16px;
+}
+header h1 { margin: 0; font-size: 40px; }
+nav { margin-top: 16px; }
+nav a {
+ color: #FFFFFF;
+ text-decoration: none;
+ font-weight: 600;
+ margin: 0 12px;
+}
+nav a:hover { text-decoration: underline; }
+.gambar {
+  text-align: center;
+}
+
+.gambar img {
+  width: 800px;
+  height: auto;
+}
+table {margin-bottom: 24px;}
+
+.video-youtube {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0 32px;
+}
+
+.video-youtube iframe {
+  width: 100%;
+  max-width: 720px;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border: none;
+  border-radius: 12px;
+}
+
+/* 3. Isi halaman */
+main { max-width: 960px; margin: 0 auto; padding: 16px; }
+section {
+ background-color: #f8d8dd;
+ border: 1px solid #e6286a;
+ border-radius: 12px;
+ padding: 24px;
+ margin: 24px 0;
+}
+h2 {
+ color: #e6286a;
+ border-bottom: 3px solid #f8d8dd;
+ padding-bottom: 8px;
+}
+img { max-width: 100%; height: auto; border-radius: 8px; }
+#produkh h2 {
+  border-bottom: 3px solid #e6286a;
+  padding-bottom: 8px;
+  display: block;
+  width: 100%;
+}
+
+
+/* 4. Tabel */
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid #e6286a; padding: 10px; text-align: left; }
+th { background-color: #e76a7f; }
+/* 5. Form */
+input, select, textarea {
+ width: 100%;
+ padding: 10px;
+ border: 1px solid #e6286a;
+ border-radius: 6px;
+ font-family: inherit;
+}
+button {
+ background-color: #e6286a;
+ color: #f8d8dd;
+ border: none;
+ border-radius: 6px;
+ padding: 12px 24px;
+ cursor: pointer;
+}
+
+/* 6. Tombol WhatsApp */
+.tombol-wa {
+ display: inline-block;
+ background-color: #e6286a;
+ color: #f8d8dd;
+ font-weight: 600;
+ text-decoration: none;
+ padding: 12px 20px;
+ border-radius: 30px;
+}
+/* 7. Footer */
+footer {
+ background-color: #e6286a;
+ color: #f8d8dd;
+ text-align: center;
+ padding: 16px;
+}
+.maps-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.maps-container iframe {
+    width: 600px;
+    height: 450px;
+    border: none;
+    border-radius: 10px;
+}
+#maps h2 {
+  border-bottom: 3px solid #e6286a;
+  padding-bottom: 8px;
+  display: block;
+  width: 100%;
+}
+
+#produk h2 {
+  border-bottom: 3px solid #e6286a;
+  padding-bottom: 8px;
+  display: block;
+  width: 100%;
+}
+
+#channel h2 {
+  border-bottom: 3px solid #e6286a;
+  padding-bottom: 8px;
+  display: block;
+  width: 100%;
+}
+
+#kontak h2 {
+  border-bottom: 3px solid #e6286a;
+  padding-bottom: 8px;
+  display: block;
+  width: 100%;
+}
+ 
+section, #alamat{
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+#Video h2 {
+  border-bottom: 3px solid #e6286a;
+  padding-bottom: 8px;
+}
+
+#alamat {
+  margin-top: 40px;
+}
